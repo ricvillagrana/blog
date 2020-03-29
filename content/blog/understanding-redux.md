@@ -1,5 +1,6 @@
 ---
-language: Englidh
+type: React
+language: English
 title: Understanding Redux
 summary: >-
   How does Redux work and why.
