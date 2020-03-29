@@ -7,7 +7,7 @@ export default {
    ** Headers of the page
    */
   head: {
-    title: '<Blog Name>',
+    title: 'Ricardo Villagrana',
     meta: [
       {
         charset: 'utf-8'
@@ -19,37 +19,37 @@ export default {
       {
         hid: 'og:url',
         property: 'og:url',
-        content: `https://example.com`
+        content: `https://ricvillagrana-blog.netlify.com`
       },
       {
         hid: 'og:title',
         property: 'og:title',
-        content: '<Blog Name>'
+        content: 'Ricardo Villagrana'
       },
       {
         hid: 'description',
         name: 'description',
-        content: '<Blog name> and description'
+        content: 'Ricardo Villagrana coding blog'
       },
       {
         hid: 'og:description',
         property: 'og:description',
-        content: '<Blog name> and description'
+        content: 'Ricardo Villagrana coding blog'
       },
       {
         hid: 'og:image:alt',
         property: 'og:image:alt',
-        content: '<Blog Name>'
+        content: 'Ricardo Villagrana'
       },
       {
         hid: 'og:article:author',
         property: 'og:article:author',
-        content: 'https://github.com/code-tribe'
+        content: 'https://github.com/ricvillagrana'
       },
       {
         hid: 'og:site_name',
         property: 'og:site_name',
-        content: '<Blog Name>'
+        content: 'Ricardo Villagrana'
       },
       {
         hid: 'og:type',
@@ -64,12 +64,12 @@ export default {
       {
         hid: 'twitter:title',
         name: 'twitter:title',
-        content: '<Blog Name>'
+        content: 'Ricardo Villagrana'
       },
       {
         hid: 'twitter:description',
         name: 'twitter:description',
-        content: '<Blog name> and description'
+        content: 'Ricardo Villagrana coding blog'
       }
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
@@ -133,8 +133,8 @@ export default {
    * Manifest
    */
   manifest: {
-    name: '<Blog Name>',
-    short_name: '<Blog Name>',
+    name: 'Ricardo Villagrana',
+    short_name: 'ricvillagrana',
     lang: 'en'
   },
 
@@ -142,7 +142,7 @@ export default {
    * sitemap
    */
   sitemap: {
-    hostname: 'https://example.com',
+    hostname: 'https://ricvillagrana-blog.netlify.com',
     gzip: true,
     exclude: ['/admin/']
   },
