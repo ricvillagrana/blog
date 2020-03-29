@@ -1,7 +1,7 @@
 ---
 type: Tooling
 language: vim
-title: Some Vim tricks
+title: Some Vim tricks 😎
 summary: >-
   Vim is a clone of Vi but improved, that is what the "m" means, Vi iMproved. If
   you have the need to find some word (or even regexp) you can type slash and
