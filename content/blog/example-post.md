@@ -8,10 +8,10 @@ summary: >-
   nascetur ridiculus mus. Duis mollis, est non commodo luctus, nisi erat
   porttitor ligula, eget lacinia odio sem nec elit. Nullam id dolor id nibh
   ultricies vehicula ut id elit.
-date: 2019-06-03T11:35:58.367Z
-update: 2019-06-03T11:35:58.367Z
-author: Brave Sir Robin
-authorlink: 'https://twitter.com'
+date: 2019-09-03T11:35:58.367Z
+update: 2019-09-03T11:35:58.367Z
+author: Ricardo Villagrana
+authorlink: 'https://twitter.com/ricvillagrana'
 thumbnail: /images/uploads/image-1.png
 ---
 Vim is a text editor that was released in 1991, it is a clone of Vi but *improved*, that is what the "m" means, Vi iMproved (ViM).
