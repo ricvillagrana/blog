@@ -12,20 +12,20 @@
       </p>
     </Container>
     <Container narrow>
-      <img v-lazy="thumbnail" class="thumbnail" :alt="title" />
-      <div id="shareable" class="post-content" v-html="html"></div>
+      <img v-lazy="thumbnail" :alt="title" class="thumbnail" />
+      <div id="shareable" v-html="html" class="post-content"></div>
     </Container>
   </section>
 </template>
 
 <script>
-import Container from '~/components/Container'
-
 import Prism from 'prismjs'
 import shareThis from 'share-this'
 import * as twitterSharer from 'share-this/dist/sharers/twitter'
 import * as facebookSharer from 'share-this/dist/sharers/facebook'
 import * as redditSharer from 'share-this/dist/sharers/reddit'
+
+import Container from '~/components/Container'
 
 export default {
   components: {
