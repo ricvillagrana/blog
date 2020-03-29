@@ -21,13 +21,13 @@ Redux is a *predictable* and *centralized* state container for JavaScript (not o
 
 ## What problems does Redux solve
 
-If you have ever built a React, Vue or Angular app, you may have noticed that managing a state could become a mess. Well, Redux is here to help, but it's not the only alternative. There more libraries like Redux, [Flux](https://facebook.github.io/flux/) is one of them. So, let's talk about Flux and why devs use Redux.
+If you have ever built a React, Vue or Angular app, you may have noticed that managing a state could become a mess. Well, Redux is here to help, but it's not the only alternative. There are more libraries like Redux, and [Flux](https://facebook.github.io/flux/) is one of them. So, let's talk about Flux and why devs use Redux.
 
 ## Why React devs use Redux instead of Flux
 
-Flux and React are different by its nature. As Samer Buna said in he's [Medium post](https://medium.com/edge-coders/the-difference-between-flux-and-redux-71d31b118c1): "Flux is a pattern and Redux is a library. Flux is a fancy name for the observer pattern modified a little bit to fit React"
+Flux and Redux are different by its nature. As Samer Buna said in he's [Medium post](https://medium.com/edge-coders/the-difference-between-flux-and-redux-71d31b118c1): "Flux is a pattern and Redux is a library. Flux is a fancy name for the observer pattern modified a little bit to fit React"
 
-Flux is the [Observer Patter](https://sourcemaking.com/design_patterns/observer) but just modified to fit Facebook's React needs. This is ok, but how does Redux become in a better alternative to manage the state?
+Flux is the [Observer Patter](https://sourcemaking.com/design_patterns/observer) but just modified to fit Facebook's React needs. This is ok, but how does Redux became a better alternative to manage the state?
 
 ![Redux and Flux](/images/uploads/redux-vs-flux.png "Redux and Flux")
 
@@ -43,7 +43,7 @@ Libraries Redux is based on:
 * Baobab
 * RxJS
 
-Redux tries to take the best of this to be more efficient and easy. It also tries to avoid common errors like modifying the state directly when we try to filter or do some process with our data.
+Redux tries to take the best of this to be more efficient and easy use. It also tries to avoid common errors like modifying the state directly when we try to filter or do some process with our data.
 
 ## How does Redux work
 
