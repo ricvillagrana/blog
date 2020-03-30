@@ -236,6 +236,8 @@ export default {
 }
 
 .post {
+  margin: auto;
+
   .meta-section,
   .thumbnail {
     margin-bottom: 2.4rem;
@@ -247,18 +249,17 @@ export default {
   }
 
   .meta-section {
-    text-align: center;
     display: block;
+    font-weight: 700;
+    word-wrap: anywhere;
 
     .post-meta {
-      margin: 0;
-      color: #535353;
-      font-weight: 700;
+      margin-top: 10px;
+      color: #718096;
     }
   }
   h1 {
     margin-top: 0;
-    margin-bottom: 2rem;
     display: block;
     width: 100%;
   }

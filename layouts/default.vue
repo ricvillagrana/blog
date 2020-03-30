@@ -23,15 +23,23 @@ export default {
 </script>
 
 <style lang="scss">
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono|Poppins:200,500,600,700,900&display=swap');
 @import '../assets/scss/syntax.scss';
 
+* {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
 html {
-  font-size: 20px;
+  font-size: 16px;
   word-spacing: 1px;
 }
 
 html,
 body {
+  margin: auto;
+  max-width: 760px;
   box-sizing: border-box;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -57,9 +65,10 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Poppins', sans-serif;
   line-height: 1.2;
   margin-bottom: 0;
+  font-weight: 700;
 }
 
 h1 {
@@ -67,7 +76,7 @@ h1 {
   margin-top: 6rem;
 
   & + p {
-    margin-top: 1.2rem;
+    margin-top: 0.6rem;
   }
 }
 h2 {
@@ -75,7 +84,7 @@ h2 {
   margin-top: 2rem;
 
   & + p {
-    margin-top: 1rem;
+    margin-top: 0.6rem;
   }
 }
 h3 {
@@ -83,7 +92,7 @@ h3 {
   margin-top: 1.8rem;
 
   & + p {
-    margin-top: 1rem;
+    margin-top: 0.6rem;
   }
 }
 h4 {
@@ -91,21 +100,22 @@ h4 {
   margin-top: 1.6rem;
 
   & + p {
-    margin-top: 0.8rem;
+    margin-top: 0.6rem;
   }
 }
 
 p {
   margin-top: 0;
-  margin-bottom: 1.6rem;
-  font-size: 1rem;
-  line-height: 1.6;
+  margin-bottom: 1rem;
+  font-size: 0.8rem;
+  color: #4a5568;
+  text-align: justify;
+  line-height: 1.4;
 }
 
 a {
-  color: #252525;
+  color: #0069ff;
   text-decoration: none;
-  box-shadow: inset 0 -1px 0 currentColor;
   transition: color 80ms ease-in, box-shadow 130ms ease-in-out,
     -webkit-box-shadow 130ms ease-in-out;
 
@@ -114,12 +124,86 @@ a {
   }
 }
 
+strong {
+  font-weight: 700;
+}
+
+blockquote {
+  margin: 0;
+
+  p {
+    margin-bottom: 16px;
+  }
+}
+
+img {
+  border-radius: 0.25rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  width: 100%;
+}
+
+pre[class*='language-'] {
+  border-radius: 0.25rem;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  color: #fff;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  font-size: 16px;
+  background: #2f3640;
+  overflow-x: scroll;
+
+  code {
+    background: inherit;
+    color: #f6f8fa;
+    line-height: 1 !important;
+  }
+}
+
+code {
+  font-family: 'Ubuntu Mono', sans-serif !important;
+
+  * {
+    font-family: inherit;
+  }
+}
+
+code:not([class^='language-']) {
+  background-color: #f6f8fa;
+  color: #0069ff;
+  border-radius: 0.25rem;
+  padding: 2px 4px;
+}
+
+@media screen and (max-width: 768px) {
+  .post-content img {
+    width: 100vw;
+    max-width: 100vw;
+    margin-left: -20px;
+    border-radius: 0px !important;
+  }
+
+  pre[class*=' language-'] {
+    width: 100vw;
+    max-width: 100vw;
+    margin-left: -20px;
+    border-radius: 0px !important;
+  }
+}
+
 ul {
+  color: #4a5568;
   padding-left: 1rem;
-  font-size: 1rem;
+  font-size: 0.8rem;
   line-height: 1.6;
   margin-top: 0;
   margin-bottom: 1.6rem;
+  padding-left: 2rem;
+  list-style: disc;
 }
 
 ::-moz-selection {
@@ -130,7 +214,8 @@ ul {
 }
 
 main {
-  padding: 80px 0;
+  padding-top: 40px;
+  padding-bottom: 10px;
 
   @media (max-width: 567px) {
     padding: 64px 0;

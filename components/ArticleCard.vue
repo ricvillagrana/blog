@@ -71,9 +71,50 @@ export default {
 </script>
 
 <style lang="scss">
+blockquote {
+  padding: 1rem;
+  border-left-width: 4px;
+  border-color: #e2e8f0;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+blockquote * {
+  margin: 0;
+  color: #718096;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  margin-top: 2.5rem;
+  margin-top: 2.5rem;
+  color: #303030;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-size: 1.25rem;
+}
+
+h3 {
+  font-size: 1.125rem;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
 .article-card {
   border-radius: 0.5rem;
-  background-color: #d84727;
+  background-color: #0069ff;
   padding: 1rem;
   margin-bottom: 2rem;
   min-height: 240px;
@@ -127,10 +168,10 @@ export default {
     }
   }
   &.other {
-    background-color: #ff8c42;
+    background-color: #0069ff;
 
     a {
-      color: #252525;
+      color: #0069ff;
     }
   }
 

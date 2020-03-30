@@ -2,11 +2,15 @@
   <nav class="navbar" role="navigation">
     <div class="navbar-inner">
       <div class="brand">
-        <nuxt-link to="/" class="nav-link">ricvillagrana blog</nuxt-link>
+        <nuxt-link to="/" class="nav-link title">ricvillagrana blog</nuxt-link>
       </div>
       <ul class="social-icons">
         <li class="icon">
-          <a href="#" target="_blank" class="nav-link">
+          <a
+            href="https://twitter.com/ricvillagrana"
+            target="_blank"
+            class="nav-link"
+          >
             <font-awesome-icon :icon="['fab', 'twitter']" />
           </a>
         </li>
@@ -32,6 +36,12 @@
       display: block;
       font-weight: 700;
       text-align: left;
+
+      .title {
+        color: #303030;
+        font-weight: 700;
+        font-size: 1.5rem;
+      }
 
       img {
         height: 24px;
