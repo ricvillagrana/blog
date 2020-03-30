@@ -1,18 +1,14 @@
-# NuxtJS Netlify CMS Starter
-
-> Netlify CMS starter based on the [Code Tribe](https://code-tribe.com) blog.
-
 ## Build Setup
 
 ``` bash
 # install dependencies
-$ yarn install
+$ npm install
 
 # serve with hot reload at localhost:3000
-$ yarn run dev
+$ npm run dev
 
 # generate blog
-$ yarn run generate
+$ npm run generate
 ```
 
 ## Quick Start
@@ -20,7 +16,7 @@ $ yarn run generate
 1. Clone or fork this repository.
 2. Set up your [Netlify](https://netlify.com) account.
 3. Sync Netlify with your own repository to automatically deploy when you write a new post.
-4. `yarn dev` or `npm run dev` for local development (available at `http://localhost:3000`).
+4. `npm run dev` or `npm run dev` for local development (available at `http://localhost:3000`).
 5. Deploy, write some posts and profit!
 
 Access your Netlify CMS admin dashboard at `localhost:3000/admin`. By default, the project assumes you want to use [Netlify Identity](https://www.netlify.com/docs/identity/). If you don't wish to use this, modify the `static/admin/index.html` file.

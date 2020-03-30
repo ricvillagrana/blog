@@ -33,7 +33,7 @@ export default {
   },
   head() {
     return {
-      title: `${this.title} | <Blog Name>`,
+      title: `${this.title} | Ricardo Villagrana`,
       meta: [
         {
           hid: 'article:published_time',
@@ -58,7 +58,7 @@ export default {
         {
           hid: 'og:title',
           property: 'og:title',
-          content: `${this.title} | Code Tribe`
+          content: `${this.title} | Ricardo Villagrana`
         },
         {
           hid: 'description',
@@ -103,7 +103,7 @@ export default {
         {
           hid: 'twitter:site',
           name: 'twitter:site',
-          content: '@tribe_code'
+          content: '@ricvillagrana'
         },
         {
           hid: 'twitter:description',
@@ -113,7 +113,7 @@ export default {
         {
           hid: 'twitter:image',
           name: 'twitter:image',
-          content: `https://code-tribe.com${this.thumbnail}`
+          content: `https://ricvillagrana-blog.netlify.com${this.thumbnail}`
         }
       ]
     }

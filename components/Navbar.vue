@@ -2,7 +2,7 @@
   <nav class="navbar" role="navigation">
     <div class="navbar-inner">
       <div class="brand">
-        <nuxt-link to="/" class="nav-link">Blog Name</nuxt-link>
+        <nuxt-link to="/" class="nav-link">ricvillagrana blog</nuxt-link>
       </div>
       <ul class="social-icons">
         <li class="icon">

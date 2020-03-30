@@ -1,8 +1,8 @@
 {
-  "name": "nuxt-netlify-cms-starter",
+  "name": "ricvillagrana-blog",
   "version": "1.0.0",
-  "description": "<Blog Name> Blog",
-  "author": "Code Tribe",
+  "description": "ricvillagrana's Blog",
+  "author": "Ricardo Villagrana",
   "private": true,
   "scripts": {
     "dev": "node content/index.js && nuxt",
