@@ -2,7 +2,7 @@
   <section>
     <Container>
       <div class="intro">
-        <h1>ricvillagrana blog</h1>
+        <h2>Welcome to my entries</h2>
       </div>
     </Container>
     <Container flex>

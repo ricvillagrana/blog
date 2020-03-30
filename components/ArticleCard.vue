@@ -1,5 +1,9 @@
 <template>
-  <article class="article-card" :class="[size, language]">
+  <article
+    :style="`background-image: url(${articleInfo.attributes.thumbnail});`"
+    :class="[size, language]"
+    class="article-card"
+  >
     <nuxt-link :to="`/blog/${articleInfo.link}`">
       <div class="card-inner">
         <p class="type">
@@ -114,12 +118,15 @@ h4 {
 
 .article-card {
   border-radius: 0.5rem;
-  background-color: #0069ff;
+  background-color: #e2e8f0;
   padding: 1rem;
   margin-bottom: 2rem;
   min-height: 240px;
   position: relative;
   overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 
   a {
     position: absolute;
@@ -179,8 +186,10 @@ h4 {
     position: absolute;
     bottom: 1rem;
     left: 0;
-    width: 100%;
-    padding: 0 1rem;
+    margin: 0.5rem 1rem;
+    padding: 0.5rem 1rem;
+    background: #e2e8f0;
+    border-radius: 0.2rem;
 
     .type {
       background: rgba(0, 0, 0, 0.1);

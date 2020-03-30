@@ -2,7 +2,7 @@
   <nav class="navbar" role="navigation">
     <div class="navbar-inner">
       <div class="brand">
-        <nuxt-link to="/" class="nav-link title">ricvillagrana blog</nuxt-link>
+        <nuxt-link to="/" class="nav-link title">Ricardo Villagrana</nuxt-link>
       </div>
       <ul class="social-icons">
         <li class="icon">

@@ -32,7 +32,7 @@ export default {
 }
 
 html {
-  font-size: 16px;
+  font-size: 20px;
   word-spacing: 1px;
 }
 
@@ -173,7 +173,7 @@ code {
 }
 
 code:not([class^='language-']) {
-  background-color: #f6f8fa;
+  background-color: #e2e8f0;
   color: #0069ff;
   border-radius: 0.25rem;
   padding: 2px 4px;
