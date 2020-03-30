@@ -1,5 +1,5 @@
 ---
-type: React
+type: react
 language: English
 title: Understanding Redux
 summary: >-
@@ -15,7 +15,7 @@ date: 2019-10-04T04:14:17.945Z
 update: 2019-10-04T04:14:18.024Z
 author: Ricardo Villagrana
 authorlink: 'https://twitter.com/ricvillagrana'
-thumbnail: /images/uploads/redux-diagram.png
+thumbnail: /images/uploads/redux-vs-flux.png
 ---
 Redux is a *predictable* and *centralized* state container for JavaScript (not only React). This means you can manage a global **state** in your app to have all the parts sharing the same information.
 
