@@ -1,13 +1,13 @@
 ---
 type: Tooling
 language: vim
-title: Some Vim tricks 😎
+title: "Some Vim tricks \U0001F60E"
 summary: >-
   Vim is a clone of Vi but improved, that is what the "m" means, Vi iMproved. If
   you have the need to find some word (or even regexp) you can type slash and
   search whatever you want.
-date: 2020-03-29T07:34:00.109Z
-update: 2020-03-29T07:34:00.208Z
+date: 2019-09-03T06:34:00.109Z
+update: 2019-09-03T06:34:00.208Z
 author: Ricardo Villagrana
 authorlink: 'https://twitter.com/ricvillagrana'
 thumbnail: /images/uploads/photo-of-person-typing-on-computer-keyboard-735911.jpg
@@ -61,7 +61,7 @@ Try `:noh`, it stops highlighting the word that was searched for.
 Let's supose that we have the following code
 
 ```js
-function sum(a, b)
+def sum(a, b)
   return a + b
 end
 
@@ -73,7 +73,7 @@ We want to refactor the name of the function from `sum` to `suma`.
 It is really easy to achieve with `:%s/sum/suma/g`. After running that command we will have the following code:
 
 ```js
-function suma(a, b)
+def suma(a, b)
   return a + b
 end
 
